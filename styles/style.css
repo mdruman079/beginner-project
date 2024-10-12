@@ -194,3 +194,65 @@ main {
     cursor: pointer;
     margin-top: 24px;
 }
+
+/* support section style */
+.support-section {
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-color {
+    color: #FFF;
+}
+
+.support-distance {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.form-element {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.form-element input {
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(13, 19, 33, 0.40);
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-btn {
+    height: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+}
