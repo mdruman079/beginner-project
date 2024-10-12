@@ -10,6 +10,15 @@ body {
 }
 
 /* common shared style */
+
+.section-title {
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 .section-description {
     color: #0D1321;
     text-align: center;
@@ -45,7 +54,9 @@ header {
     line-height: 68px;
     margin-bottom: 16px;
 }
-
+.text-start {
+    text-align: start;
+}
 .banner .banner-btn {
     text-align: center;
     margin-top: 24px;
@@ -57,5 +68,58 @@ header {
     border-radius: 8px;
     background: #0D1321;
     color: white;
+    cursor: pointer;
+}
+
+/* main style */
+main {
+    width: 1440px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* web section style */
+.web-section {
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 90px;
+}
+
+.web-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.web-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.web-content .web-content-title {
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.web-content .web-content-btn {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-top: 32px;
     cursor: pointer;
 }
