@@ -123,3 +123,21 @@ main {
     margin-top: 32px;
     cursor: pointer;
 }
+
+/* inspiration section style */
+.inspiration-section {
+    margin-bottom: 150px;
+}
+.inspiration-distance {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.yt-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+}
