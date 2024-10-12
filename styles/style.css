@@ -71,6 +71,11 @@ header {
     cursor: pointer;
 }
 
+.banner .banner-btn .btn a{
+    color: white;
+    text-decoration: none;
+}
+
 /* main style */
 main {
     width: 1440px;
@@ -255,4 +260,32 @@ main {
     align-items: center;
     border: 0;
     cursor: pointer;
+}
+
+/* footer section style */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+}
+
+footer .footer-content {
+    width: 1440px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title{
+color: #0D1321;
+font-size: 20px;
+font-weight: 600;
+}
+.social-icon{
+    display: flex;
+    gap: 24px;
 }
