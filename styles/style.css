@@ -141,3 +141,56 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.20);
 }
+
+/* current section style */
+.current-section {
+    margin-bottom: 48px;
+}
+
+.current-distance {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.info-container .info {
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.info-container .bg-1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.info-container .bg-2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.info-container .bg-3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+.info img{
+    margin-bottom: 24px;
+}
+.info-title {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+.info-distance{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.info a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 24px;
+}
